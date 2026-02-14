@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PS83V9WS');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Layout</title>
+    <style>
+        .article-layout {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f0f0f0;
+        }
+        
+        main {
+            background: lightblue;
+            padding: 1rem;
+        }
+        
+        aside {
+            background: lightcoral;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS83V9WS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div class="article-layout">
+        <main>
+            <h1>MAIN CONTENT (3fr)</h1>
+            <p>Este é o conteúdo principal que deve ocupar 3/4 da largura</p>
+        </main>
+        
+        <aside>
+            <h2>SIDEBAR (1fr)</h2>
+            <p>Este é o sidebar que deve ocupar 1/4 da largura</p>
+        </aside>
+    </div>
+</body>
+</html>
